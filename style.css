@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: DM Sans;
+
+}
+
+header,
+main,
+footer {
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 80px;
+}
+
+
+.toptable {
+    height: 90px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftblock {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+
+.navigation li {
+    margin-right: 33px;
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 36.4444px;
+    color: #000000;
+    z-index: 3;
+}
+
+
+.right-block {
+    display: flex;
+
+}
+
+.telefon {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-right: 50px;
+}
+
+.kartinki3 {
+    display: flex;
+    align-items: center;
+}
+
+.chelovek {
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #F2F3F5;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serdce {
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #F2F3F5;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.korzina {
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #F2F3F5;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+
+H1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 53px;
+    color: #000000;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 30px;
+
+}
+
+.pravajstorona {
+    width: 1000px;
+    height: 100%;
+    background-image: url(./images/dvakolesa.png), url(./images/ten.png);
+    background-size: 101%;
+    background-repeat: no-repeat;
+    background-position: -18px 111px, 0 389px;
+}
+
+
+.levajastorona {
+    margin-left: 64px;
+
+}
+
+.input {
+    display: flex;
+    height: 64px;
+    width: 514px;
+}
+
+.section2 {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    background: #FFFFFF;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    height: 140px;
+    margin-right: 21px;
+}
+
+
+
+
+.tittle {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.paragraf {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.card2 {
+    display: flex;
+    background: #FFFFFF;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    height: 140px;
+    margin-right: 21px;
+}
+
+.shyna {
+
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    overflow: hidden;
+}
+
+.card3 {
+    display: flex;
+    background: #FFFFFF;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+    height: 140px;
+    width: 435px;
+}
+
+.rul {
+    width: 159px;
+    height: 139px;
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    overflow: hidden;
+}
+
+.section3 {
+    display: flex;
+    margin-bottom: 94px;
+    width: 1280px;
+}
+
+
+.aside {
+    height: 732px;
+    width: 380px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.blocksinij {
+    display: flex;
+    align-items: center;
+    background: #4200FF;
+    border-radius: 5px;
+    height: 76px;
+    width: 358px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 9px;
+    top: 8px;
+    padding: 0 22px;
+
+}
+
+.smallkoleso {
+    height: 36px;
+    width: 36px;
+    margin-right: 19px;
+}
+
+.Shinalar {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 159px;
+
+}
+
+.Blockserij {
+    display: flex;
+    align-items: center;
+    padding: 0 31px;
+    margin-bottom: 38px;
+}
+
+
+.Rullar {
+    font-weight: 500;
+    font-size: 22px;
+    color: #050303;
+    margin-right: 184px;
+}
+
+.smallrul {
+    height: 36px;
+    width: 36px;
+    margin-right: 19px;
+}
+
+.Blockserij2 {
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+    padding: 0 0 0 19px;
+    margin-bottom: 38px;
+}
+
+.Orindiqlar {
+    font-weight: 500;
+    font-size: 22px;
+    color: #050303;
+    margin-right: 139px;
+}
+
+.kreslosmall {
+    height: 40px;
+}
+
+.blocksinij .strelka {
+    color: white;
+}
+
+.Blockserij3 {
+    display: flex;
+    align-items: center;
+    background: #F7F7F7;
+    padding: 0 0 0 31px;
+}
+
+.Akkumlyatorlar {
+    font-weight: 500;
+    font-size: 22px;
+    color: #050303;
+    margin-right: 90px;
+}
+
+.smallakum {
+    height: 36px;
+    width: 36px;
+    margin-right: 12px;
+}
+
+.tirescard {
+    height: 356px;
+    width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.tiresblock {
+    height: 229px;
+    width: 278px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tires {
+    width: 128px;
+    height: 186px;
+}
+
+.textcard {
+    width: 222px;
+    padding: 0 0 0 20px;
+    margin-bottom: 24px;
+
+}
+
+.zvezdy {
+    padding: 0 0 0 20px;
+    color: yellow;
+    display: flex;
+}
+.price {
+    font-size: 20px;
+    line-height: 23px;
+    color: #4200FF;
+    padding: 0 0 0 83px;
+}
+
+
+.pravyjblok {
+    width: 874px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
