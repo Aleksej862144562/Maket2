@@ -422,7 +422,7 @@ p {
     align-items: center;
     background-color: #F5F5F5;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .middle-levyj-blok {
@@ -446,7 +446,6 @@ padding: 0 0 0 40px;
 
 .buttonmiddle {
     width: 100px;
-    height: 20px;
     
 }
 
@@ -466,3 +465,111 @@ padding: 0 0 0 40px;
     background-image: url(./images/carbig.png)
 }
 
+.tittleleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tittleleft h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    width: 329px;
+    height: 42px;
+    margin-bottom: 0px;
+    margin-right: 804px;
+}
+
+.tittleleft p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-bottom: 0px;
+    
+}
+
+.section6 {
+    margin-bottom: 80px;
+}
+
+.section7 {
+    height: 356px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardnabor {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.meniucards {
+    height: 356px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.instrumenty  {
+    height: 229px;
+    width: 303px;
+    background: #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+ 
+}
+
+.section8 
+{
+   
+}
+
+.block-name {
+    height: 461px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.tittle-Brendlar {
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.company-name {
+    height: 180px;
+    width: 298px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0 0 0;
+}
+
+.text-audi {
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+color: #000000;
+text-align: center;
+}
+
+.audi {
+    width: 103px;
+    height: 77px;
+}
