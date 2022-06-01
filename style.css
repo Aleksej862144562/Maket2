@@ -212,7 +212,6 @@ p {
     border: 1.5px solid #F2F2F2;
     border-radius: 5px;
     height: 140px;
-    width: 435px;
     align-items: center;
 }
 
@@ -390,7 +389,7 @@ p {
 .car {
     background: #F9F9F9;
     border-radius: 4px 0px 0px 4px;
-    width: 161px;
+    width: 214px;
     height: 138px;
     display: flex;
     align-items: center;
@@ -410,7 +409,7 @@ p {
 .Time {
     background: #F9F9F9;
     border-radius: 4px 0px 0px 4px;
-    width: 161px;
+    width: 214px;
     height: 138px;
     display: flex;
     align-items: center;
