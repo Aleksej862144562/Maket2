@@ -144,7 +144,10 @@ p {
     background-position: -18px 111px, 0 389px;
 }
 
+.card-text {
+    padding: 0 20px;
 
+}
 .levajastorona {
     margin-left: 64px;
 
@@ -169,17 +172,14 @@ p {
     border-radius: 5px;
     height: 140px;
     margin-right: 21px;
+    align-items: center;
 }
-
-
-
 
 .tittle {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
-
     color: #000000;
 }
 
@@ -197,10 +197,10 @@ p {
     border-radius: 5px;
     height: 140px;
     margin-right: 21px;
+    align-items: center;
 }
 
 .shyna {
-
     background: #F9F9F9;
     border-radius: 4px 0px 0px 4px;
     overflow: hidden;
@@ -213,6 +213,7 @@ p {
     border-radius: 5px;
     height: 140px;
     width: 435px;
+    align-items: center;
 }
 
 .rul {
@@ -225,7 +226,7 @@ p {
 
 .section3 {
     display: flex;
-    margin-bottom: 94px;
+    margin-bottom: 132px;
     width: 1280px;
 }
 
@@ -339,10 +340,7 @@ p {
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    margin-right: 20px;
     margin-bottom: 20px;
-
-
 }
 
 .tiresblock {
@@ -373,6 +371,7 @@ p {
     color: yellow;
     display: flex;
 }
+
 .price {
     font-size: 20px;
     line-height: 23px;
@@ -380,10 +379,91 @@ p {
     padding: 0 0 0 83px;
 }
 
-
 .pravyjblok {
-    width: 874px;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
+    justify-content: space-between;
+
 }
+
+.car {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    width: 161px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tele {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    width: 161px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Time {
+    background: #F9F9F9;
+    border-radius: 4px 0px 0px 4px;
+    width: 161px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5 {
+    display: flex;
+    height: 358px;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.middle-levyj-blok {
+background: #F7F7F7;
+border-radius: 5px;
+padding: 0 0 0 40px;
+}
+
+.tesktmiddle h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+    width: 530px;
+}
+
+
+.tesktmiddle {
+    margin-bottom: 54px;
+}
+
+.buttonmiddle {
+    width: 100px;
+    height: 20px;
+    
+}
+
+.buttonteskt {
+    font-size: 28px;
+    line-height: 36px;
+    width: 145px;
+    height: 50px;
+    color: #000000;
+    border-radius: 7px;
+    
+}
+
+.pravyj-blok-middle {
+    width: 1000px;
+    height: 100%;
+    background-image: url(./images/carbig.png)
+}
+
