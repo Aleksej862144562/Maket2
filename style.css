@@ -7,8 +7,8 @@
 }
 
 header,
-main,
-footer {
+main
+ {
     margin: auto;
     max-width: 1440px;
     padding: 0 80px;
@@ -426,9 +426,9 @@ p {
 }
 
 .middle-levyj-blok {
-background: #F7F7F7;
-border-radius: 5px;
-padding: 0 0 0 40px;
+    background: #F7F7F7;
+    border-radius: 5px;
+    padding: 0 0 0 40px;
 }
 
 .tesktmiddle h1 {
@@ -527,12 +527,11 @@ padding: 0 0 0 40px;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
- 
-}
+ }
 
 .section8 
 {
-   
+   margin-bottom: 120px;
 }
 
 .block-name {
@@ -555,51 +554,223 @@ padding: 0 0 0 40px;
     width: 298px;
     background: #F7F7F7;
     border-radius: 5px;
-    display: flex;
-    justify-content: space-around;
-    padding: 30px 0 0 0;
+    
 }
 
 .text-audi {
-font-weight: 700;
-font-size: 32px;
-line-height: 42px;
-color: #000000;
-text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
 }
 
-.audi {
-    width: 103px;
-    height: 77px;
+.blok-audi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
 }
 
-.ford {
+.blok-Mercedes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 0 30px 0;
+}
+
+.blok-Daewoo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 30px 0;
+}
+
+.text-Daewoo {
+    padding: 11px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.blok-Hyundai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 30px 0;
+}
+
+.text-Hyundai {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    padding: 11px;
+
+    }
+
+.blok-tesla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 0 0 0;
+    }
+
+.text-tesla {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    }
+
+.text-Toyota {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    }
+
+.blok-Toyota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0 0 0;
+    }
+
+
+.text-Ford {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    }
+
+.blok-Ford {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px 0 0 0;
+    }
+
+.text-Chevrolet {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    padding: 13px;
+    }
+
+.blok-Chevrolet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 34px 0 0 0;
+    }
+
+    
+.footer-block {
+    width: 1440px;
+    height: 311px;
+    background: #2F2F2F;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 80px 100px 80px;
+  }
+
+.logo-footer  {
+    width: 93px;
+    height: 47px;
+    margin-bottom: 10px;
+    margin-right: 156px;
+
+}
+
+.tele-footer {
+    font-size: 16px;
+    line-height: 21px;    
+    color: #FFFFFF;
+    width: 147px;
+    
+}
+
+.Malumotlar {
     width: 152px;
-    height: 77px;
+    padding: 10px 0 0 0;
+    margin-right: 144px ;
 }
 
-.text-ford {
+.Malumotlar h3 {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    color: #000000;
-    position: relative;
-    top: -17px;
-    left: 30px;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
 }
 
-.text-Mercedes {
+.meniu-footer1 {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    color: #000000;
-    position: relative;
-    left: -40px;
-    top: 8px;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    width: 216px;
 }
 
-.Mercedes {
-    position: relative;
-    top: 5px;
-    left: 39px;
+.meniu-footer1 ul {
+    list-style-type: none;
+
+}
+
+.Biz-bilan-aloqa {
+    width: 180px;
+    padding: 10px 0 0 0;
+    margin-right: 286px;
+}
+
+.meniu-footer2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    width: 250px;
+    }
+
+.meniu-footer2 ul {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    }
+
+.Biz-bilan-aloqa h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+      }
+
+
+
+.name-footer {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+.footer-icon {
+    width: 146px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+
+.name-footer h4 {
+    margin-bottom: 20px;
+
 }
